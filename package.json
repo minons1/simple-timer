@@ -1,0 +1,30 @@
+{
+  "name": "@minons1/simple-timer",
+  "version": "0.1.0",
+  "description": "Simple Timer Library on NodeJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "@minons1",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minons1/simple-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "interval",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  }
+}

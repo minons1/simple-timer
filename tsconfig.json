@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2024", // Target JavaScript version
+    "module": "CommonJS", // Module system
+    "declaration": true, // Generate .d.ts files
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Source directory
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable ES module interop
+    "skipLibCheck": true // Skip library checks
+  },
+  "include": ["src/**/*"], // Include all files in src
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist
+}
